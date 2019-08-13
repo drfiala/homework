@@ -12,6 +12,9 @@ REPO=$2
 CLUSTER=$3
 echo "Setting up Jenkins in project ${GUID}-jenkins from Git Repo ${REPO} for Cluster ${CLUSTER}"
 
+# Set the current project ${GUID}-jenkins
+oc project ${GUID}-jenkins
+
 # Set up Jenkins with sufficient resources
 # TBD
 
