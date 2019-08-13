@@ -154,7 +154,7 @@
 
   <build>
     <!-- Maven will append the version to the finalName (which is the name given to the generated war, and hence the context root) -->
-    <finalName>advdev_homework_template/openshift-tasks</finalName>
+    <finalName>openshift-tasks</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
