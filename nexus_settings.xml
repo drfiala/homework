@@ -10,7 +10,7 @@
   </mirrors>
   <servers>
     <server>
-      <id>Nexus</id>
+      <id>nexus</id>
       <username>admin</username>
       <password>redhat</password>
     </server>
